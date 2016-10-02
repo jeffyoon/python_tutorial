@@ -1,5 +1,6 @@
 #Python Variables
 
+<<<<<<< HEAD
 ###String, Unicode and Python
 ```
 >>> s = 'I am a string enclosed in single quotes.'
@@ -49,3 +50,6 @@ Defining bytes objects and casting them into strings:
 ```
 
 
+=======
+![Position in String](http://www.python-course.eu/images/positive_and_negative_indices_of_strings.png)
+>>>>>>> 1107eb4af290db0e31e1c6657d7e8bfe6c095315
