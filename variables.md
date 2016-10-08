@@ -1,5 +1,49 @@
 #Python Variables
 
+###Python Keywords
+There is no need to learn them by heart. You can get the list of Python keywords in the interactive shell by using help. 
+You type in help() in the interactive, but please don't forget the parenthesis: 
+```
+>>> help()
+
+Welcome to Python 3.4's help utility!
+
+If this is your first time using Python, you should definitely check out
+the tutorial on the Internet at http://docs.python.org/3.4/tutorial/.
+
+Enter the name of any module, keyword, or topic to get help on writing
+Python programs and using Python modules.  To quit this help utility and
+return to the interpreter, just type "quit".
+
+To get a list of available modules, keywords, symbols, or topics, type
+"modules", "keywords", "symbols", or "topics".  Each module also comes
+with a one-line summary of what it does; to list the modules whose name
+or summary contain a given string such as "spam", type "modules spam".
+
+help> 
+```
+
+What you see now is the help prompt, which allows you to query help on lots of things, especially on "keywords" as well:
+```
+help> keywords
+
+Here is a list of the Python keywords.  Enter any keyword to get more help.
+
+False               def                 if                  raise
+None                del                 import              return
+True                elif                in                  try
+and                 else                is                  while
+as                  except              lambda              with
+assert              finally             nonlocal            yield
+break               for                 not                 
+class               from                or                  
+continue            global              pass                
+
+help> 
+```
+
+
+
 ###String, Unicode and Python
 ```
 >>> s = 'I am a string enclosed in single quotes.'
