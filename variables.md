@@ -83,6 +83,7 @@ The last character of a string can be accessed like this:
 ```
 
 Yet, there is an easier way in Python.
+
 The last character can be accessed with -1, the second to last with -2 and so on:
 
 ```
@@ -94,10 +95,15 @@ The last character can be accessed with -1, the second to last with -2 and so on
 
 ###Byte Strings
 Python 3.0 uses the concepts of text and (binary) data instead of Unicode strings and 8-bit strings.
+
 Every string or text in Python 3 is Unicode, but encoded Unicode is represented as binary data.
+
 The type used to hold text is str, the type used to hold data is bytes.
+
 It's not possible to mix text and data in Python 3; it will raise TypeError.
+
 While a string object holds a sequence of characters (in Unicode), a bytes object holds a sequence of bytes, out of the range 0 .. 255, representing the ASCII values.
+
 Defining bytes objects and casting them into strings:
 
 ```
