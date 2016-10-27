@@ -189,13 +189,9 @@ print(str('aaa').count('a'))        # 3
 print(str('aaa').count('aaa'))      # 1
 print(str('My name is Jeff Yoon').count('o'))  # 2
 
+# True if the string ends with the specified suffix, otherwise returns False.
+print(str('This is an end').endswith('end'))
 
-
-
-
-
-
-
-
+print(str('My name is Jeff Yoon').find('Yoon'))  # 16
 
 
